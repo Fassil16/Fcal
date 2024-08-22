@@ -1,0 +1,113 @@
+.container{
+    width:100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(17, 184, 235);
+    margin-right: 10px;
+}
+
+.calculaterarea{
+   
+    background-color:rgb(4, 53, 68);
+    width: 290px;
+    height: 400px;
+   padding-left: 5px;
+   display: grid;
+    grid-template-rows:80px 240px ;
+    border-radius: 15px;
+}
+.displaydiv{
+   
+    margin-left: 12px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.displayarea{
+    text-align-last:right;
+    width: 180px;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 5px;
+    border-color:rgb(4, 53, 68);
+    margin-left: 10px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(4, 53, 68);
+    
+}
+.numberbutton{
+    
+    display: grid;
+    grid-template-columns:160px 50px 48px ;
+    margin-left: 20px;
+
+}
+.operator1{
+    background-color:rgb(4, 53, 68);
+   
+}
+.operator{
+    background-color: rgb(4, 53, 68);
+   
+    
+
+}
+
+
+.calculatorbutton{
+    background-color: rgb(16, 178, 199);
+    width: 128px;
+  
+    
+    
+}
+.calbutton{
+    height: 45px;
+    width: 45px;
+    color:rgb(255, 238, 238);
+    background:linear-gradient(50deg, rgb(5, 83, 114) ,rgb(0, 206, 171));
+    border-color: rgb(30, 159, 210);
+    border-radius: 10px;
+    border-right: 5px;
+    margin:2px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+#equalbutton{
+    height: 94px;
+    font-weight:bold;
+    font-size: 30px;
+}
+#zerobutton{
+    width:99px;
+}
+#backbutton{
+    background:linear-gradient(60deg , rgb(147, 179, 173) ,rgb(29, 119, 103));
+    color: rgb(255, 254, 254);
+    border-color: rgb(1, 53, 17);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-weight:bold;
+}
+#clearbutton{
+    background:linear-gradient(50deg, rgb(248, 3, 3) ,rgb(207, 6, 6));
+    
+    color:rgb(255, 238, 238);
+    border-color: rgb(255, 20, 20);
+    font-weight:bold;
+
+}
